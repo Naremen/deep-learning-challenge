@@ -1,0 +1,6 @@
+Overview:
+  -The purpose of this analysis is to design a tool for a nonprofit foundation that can help them select the applicants for funding with the best chence of success in their ventures.
+  -Using the dataset provided I created a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup.
+
+Results:
+  -In my origional model that was created for Alphabet soup
