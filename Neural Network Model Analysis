@@ -3,4 +3,15 @@ Overview:
   -Using the dataset provided I created a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup.
 
 Results:
-  -In my origional model that was created for Alphabet soup
+  -After I dropped the EIN and NAME columns, the ones that remeained were all considered features for the model. 
+  -The target variable for the model is "Is_Successful". This indicates if an organization was successful in recieving funding or not.
+  -In my origional model I ended up having 2 different layers, using the sigmoid activation function. Unfortunately I was not able to reach the target goal of 75 percent accuracy.
+
+Steps to Increase Accuracy:
+  -Unfortunately even after using 3 different models I was unable to aachieve the 75 percent accuracy. I origionally switched my activation function to linear, but that significantly decreased the models accuracy.
+  -In my second attempt at the model, I reduced my epochs from 100 down to 30. This increased my accuracy from 72.4% to 72.7%
+  -In my next attempt at the model, I kept the epochs at 30 and reduced my number of values in each bin. This model also lead to an increase in accuracy at 73.1%
+  -In my final attempt at the model, I kept my existing changes from my previous two attempts and also added an extra hidden layer as well as more neurons in the layers. Unfortunately, this reduced my models accuracy to 72.8%
+
+Summary:
+  -In conclusion even thouhg I was not able to achieve the goal accuracy of 75 percent, the third model that I created proved to be the most accurate out of the four.
